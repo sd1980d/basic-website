@@ -1,0 +1,16 @@
+.navlist{
+    float: right;
+    display: flex;  
+    list-style-type: none; 
+    text-decoration: none;
+}
+
+.navitem{
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.navitem a{
+    color: #FFF;
+}
+  
