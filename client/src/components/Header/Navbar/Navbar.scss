@@ -1,8 +1,8 @@
 .navlist{
-    float: right;
-    display: flex;  
+    display: flex;
     list-style-type: none; 
     text-decoration: none;
+    align-content: space-between;
 }
 
 .navitem{
@@ -14,3 +14,6 @@
     color: #FFF;
 }
   
+.nav {
+    margin-left: auto;  
+  }

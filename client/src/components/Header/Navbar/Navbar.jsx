@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
 
-import './Navbar.css';
+import './Navbar.scss';
 
 
 class Navbar extends Component {
     render(){
         return(
-            <nav>
+            <nav className="nav">
                 <ul className="navlist" >
                     <li className="navitem"><NavLink exact to="/">Home</NavLink></li>
                     <li className="navitem"><NavLink to="/about/">About</NavLink></li>
